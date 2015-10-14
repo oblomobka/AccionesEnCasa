@@ -88,9 +88,11 @@ f_soporte= (base_tornillo+d/2+pared)/longitud;
 }
 
   
-angulo=150;
-d=30;
-pared=5;
-longitud=50;
+angulo=90;
+d=25;
+pared=6;
+longitud=70;
+remate=2;
+tornillo=[3.5,20,7];
 
-gancho_atornillable(angulo=angulo,d=d,pared=pared,remate=0,longitud=longitud,tornillo=[4,20,8]);
+gancho_atornillable(angulo=angulo,d=d,pared=pared,remate=remate,longitud=longitud,tornillo=tornillo);
